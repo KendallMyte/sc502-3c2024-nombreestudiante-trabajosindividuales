@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+    <form>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <br><br>
+
+        <label>Correo:</label>
+        <input type="email" name="correo" required>
+
+        <br><br>
+
+        <label>Contraseña:</label>
+        <input type="password" name="contrasena" required>
+
+        <br><br>
+
+
+        <label>País:</label>
+        <select name="pais">
+            <option>Costa Rica</option>
+            <option>Panamá</option>
+            <option>Nicaragua</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" required> Acepto los términos y condiciones
+
+        <br><br>
+
+        <button type="submit">Registrarse</button>
+    </form>
+</body>
+</html>

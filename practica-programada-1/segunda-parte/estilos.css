@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    background-color: #f0f7fa;
+    color: #333333;
+    margin: 20px;
+}
+
+nav {
+    background-color: #245b75;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: #a8e5f5;
+}
+
+h1, h2 {
+    color: #245b75;
+}
+
+.nombre {
+    color: #245b75;
+}
+
+.especialidad {
+    color: #397f9e;
+}
+
+#descripcion {
+    background-color: white;
+    padding: 10px;
+}
+
+button {
+    background-color: #245b75;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: #397f9e;
+}
+
+.comentarios {
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin: 5px;
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .comentarios {
+        flex-direction: column;
+    }
+}
